@@ -361,9 +361,13 @@ header .nav .toggle:hover + ul {
 .srv .box p:not(:last-child) {
   border-bottom: 1px solid white;
 }
-.srv .box img {
+.srv .box .img img {
   height: 90px;
   width: 90px;
+}
+
+.srv .box img {
+  height: 100%;
   filter: drop-shadow(0 0 5px #333);
   -webkit-filter: drop-shadow(0 0 5px #333);
 }
